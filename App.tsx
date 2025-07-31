@@ -19,7 +19,7 @@ export default function App() {
         const fileUri = FileSystem.documentDirectory + `video${i + 1}.mp4`;
 
         const asset = Asset.fromModule(reel.video);
-        await asset.downloadAsync(); // ensure it's downloaded
+        await asset.downloadAsync(); // ensure it is downloaded
 
         const info = await FileSystem.getInfoAsync(fileUri);
         if (!info.exists) {

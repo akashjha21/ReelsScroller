@@ -5,7 +5,7 @@ export default function SplashScreen({ navigation }: any) {
   useEffect(() => {
     const timeout = setTimeout(() => {
       navigation.replace("Home");
-    }, 3000); // 3-second splash
+    }, 3000); 
 
     return () => clearTimeout(timeout);
   }, []);
@@ -13,7 +13,7 @@ export default function SplashScreen({ navigation }: any) {
   return (
     <View style={styles.container}>
       <Image
-        source={require("../../assets/logo.png")} // 🔁 replace with your logo
+        source={require("../../assets/logo.png")} 
         style={styles.logo}
       />
       <Text style={styles.title}>ReelView</Text>
@@ -26,7 +26,7 @@ export default function SplashScreen({ navigation }: any) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#000", // dark background for modern feel
+    backgroundColor: "#000", 
     justifyContent: "center",
     alignItems: "center",
   },
