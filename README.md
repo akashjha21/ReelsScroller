@@ -9,7 +9,6 @@ A beautiful Instagram Reels / YouTube Shorts-style mobile app built with React N
 - 🎬 Vertical, full-screen **reels playback**
 - 🔄 Only **one video plays at a time**
 - 🔇 Tap to play/pause any video
-- ❤️ Like button placeholder
 - 📸 Automatically generated **video thumbnails**
 - 📽️ Smooth horizontal **preview scroll** on Home
 - ✨ Custom Splash Screen (bypassing Expo’s default)
